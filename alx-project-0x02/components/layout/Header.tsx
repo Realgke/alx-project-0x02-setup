@@ -3,21 +3,17 @@ import Link from "next/link";
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-gray-100 p-4 flex justify-between items-center">
-      <div className="text-xl font-bold">MyLogo</div>
-      <nav className="space-x-4">
-        <Link href="/home">
-          <a className="px-3 py-1 bg-blue-500 text-white rounded">Home</a>
+    <header className="bg-gray-800 text-white p-4">
+      <nav className="flex gap-4">
+        <Link href="/home" className="hover:text-yellow-300">
+          Home
         </Link>
-        <Link href="/about">
-          <a className="px-3 py-1 bg-green-500 text-white rounded">About</a>
+        <Link href="/about" className="hover:text-yellow-300">
+          About
         </Link>
-        <button className="px-3 py-1 bg-gray-500 text-white rounded">
-          Sign In
-        </button>
-        <button className="px-3 py-1 bg-gray-700 text-white rounded">
-          Sign Up
-        </button>
+        <Link href="/posts" className="hover:text-yellow-300">
+          Posts
+        </Link>
       </nav>
     </header>
   );
