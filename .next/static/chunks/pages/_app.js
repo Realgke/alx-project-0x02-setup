@@ -1,0 +1,13 @@
+__turbopack_load_page_chunks__("/_app", [
+  "static/chunks/c1240_next_dist_compiled_next-devtools_index_f7b8ba0b.js",
+  "static/chunks/c1240_next_dist_compiled_04c69182._.js",
+  "static/chunks/c1240_next_dist_shared_lib_2c41632f._.js",
+  "static/chunks/c1240_next_dist_client_c14192ed._.js",
+  "static/chunks/c1240_next_dist_f88c733a._.js",
+  "static/chunks/c1240_react-dom_9ffd725e._.js",
+  "static/chunks/c1240_92be512a._.js",
+  "static/chunks/[root-of-the-server]__8f960eba._.js",
+  "static/chunks/Desktop_Month2_alx-project-2_styles_globals_0a889dc3.css",
+  "static/chunks/Desktop_Month2_alx-project-2_pages__app_2da965e7._.js",
+  "static/chunks/turbopack-Desktop_Month2_alx-project-2_pages__app_8b365d9e._.js"
+])

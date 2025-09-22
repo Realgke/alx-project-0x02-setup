@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/coo-wanjohi/Desktop/Month2/alx-project-2/pages/index.tsx"],"sourcesContent":["import type { NextPage } from \"next\";\n\nconst Home: NextPage = () => {\n  return (\n    <div className=\"flex flex-col items-center justify-center min-h-screen bg-gray-100 p-4\">\n      <h1 className=\"text-4xl font-bold mb-4\">Welcome to ALX Listing App!</h1>\n      <p className=\"text-lg text-gray-700\">\n        Explore your favorite properties and find the best deals worldwide.\n      </p>\n    </div>\n  );\n};\n\nexport default Home;\n"],"names":[],"mappings":";;;;;;AAEA,MAAM,OAAiB;IACrB,qBACE,qKAAC;QAAI,WAAU;;0BACb,qKAAC;gBAAG,WAAU;0BAA0B;;;;;;0BACxC,qKAAC;gBAAE,WAAU;0BAAwB;;;;;;;;;;;;AAK3C;uCAEe","debugId":null}}]
+}
